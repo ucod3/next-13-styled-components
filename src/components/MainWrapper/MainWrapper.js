@@ -1,7 +1,6 @@
 'use client';
-import React from 'react';
 import styled from 'styled-components';
-const MainWrapperStyle = styled.main`
+const MainWrapper = styled.main`
   width: 100%;
   max-width: 800px;
   padding: 16px 24px;
@@ -10,8 +9,5 @@ const MainWrapperStyle = styled.main`
   border-radius: 2px;
   background: white;
 `;
-function MainWrapper({ children }) {
-  return <MainWrapperStyle>{children}</MainWrapperStyle>;
-}
 
 export default MainWrapper;
